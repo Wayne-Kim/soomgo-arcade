@@ -1,0 +1,38 @@
+#!/usr/bin/env python
+# Build the SparkleUpdater GDExtension. macOS only (Sparkle is a macOS framework).
+#
+#   scons platform=macos target=template_release sparkle_dir=/path/to/SparkleFrameworkDir
+#
+# Prereqs (see README.md):
+#   - godot-cpp checked out at ./godot-cpp on the matching Godot 4.x branch
+#   - Sparkle.framework available under `sparkle_dir` (defaults to ./Sparkle)
+import os
+
+env = SConscript("godot-cpp/SConstruct")
+
+env.Append(CPPPATH=["src/"])
+sources = Glob("src/*.cpp") + Glob("src/*.mm")
+
+# Directory that CONTAINS Sparkle.framework (override via sparkle_dir=... or $SPARKLE_DIR).
+sparkle_dir = ARGUMENTS.get("sparkle_dir", os.environ.get("SPARKLE_DIR", os.path.abspath("Sparkle")))
+
+if env["platform"] != "macos":
+	print("sparkle_update only targets macOS; nothing to build for platform=%s" % env["platform"])
+	Return()
+
+# Objective-C++ for the .mm bridge, the Sparkle framework search path, and an rpath so the loader
+# finds Sparkle.framework once it is embedded under <App>.app/Contents/Frameworks/.
+env.Append(CCFLAGS=["-fobjc-arc"])
+env.Append(CXXFLAGS=["-std=c++17"])
+env.Append(FRAMEWORKPATH=[sparkle_dir])
+env.Append(LINKFLAGS=[
+	"-F", sparkle_dir,
+	"-framework", "Sparkle",
+	"-framework", "Foundation",
+	"-Wl,-rpath,@loader_path",
+	"-Wl,-rpath,@executable_path/../Frameworks",
+])
+
+lib_name = "libsparkle_update.{}.{}".format(env["platform"], env["target"])
+library = env.SharedLibrary("bin/{}".format(lib_name), source=sources)
+Default(library)

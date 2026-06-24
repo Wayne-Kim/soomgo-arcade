@@ -1,0 +1,23 @@
+{
+	"anchor_bottom_center": true,
+	"board_cell": 44,
+	"cell": 80,
+	"cols": 4,
+	"derived_states": {
+		"invuln": "runtime 0.55 alpha over active idle/walk frame"
+	},
+	"frames": {
+		"idle": 2,
+		"trapped": 2,
+		"walk": 4
+	},
+	"layers": {
+		"base": "lesson_base.png",
+		"mask": "lesson_mask.png"
+	},
+	"rows": [
+		"idle",
+		"walk",
+		"trapped"
+	]
+}

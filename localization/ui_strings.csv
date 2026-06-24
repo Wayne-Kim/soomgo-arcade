@@ -1,0 +1,187 @@
+keys,en,ko
+APP_TITLE,Soomgo Arcade,숨고 아케이드
+LOBBY_TITLE,Game Lobby,게임 로비
+LOBBY_SUBTITLE,Set up a local match for 4 to 8 players,4~8명이 즐기는 로컬 대전을 준비하세요
+LOBBY_EMPTY,No players have joined yet. Add players to begin.,아직 참가한 플레이어가 없습니다. 플레이어를 추가해 시작하세요.
+LOBBY_LOADING,Preparing match…,대전 준비 중…
+LOBBY_ERROR_MIN_PLAYERS,Add at least 4 players to start.,시작하려면 최소 4명이 필요합니다.
+LOBBY_ERROR_GENERIC,Something went wrong. Please try again.,문제가 발생했습니다. 다시 시도해 주세요.
+SLOT_EMPTY,Empty slot,빈 자리
+SLOT_ADD,Add player,플레이어 추가
+SLOT_REMOVE,Remove player,플레이어 제거
+SLOT_PLAYER_NAME,Player name,플레이어 이름
+SLOT_TEAM,Team,팀
+SLOT_CHARACTER,Character,캐릭터
+SLOT_CHARACTER_EMPTY,No character selected.,선택된 캐릭터가 없습니다.
+SLOT_SKILL,Skill,스킬
+A11Y_CHARACTER_PREVIEW,Character preview for player {0}: description and starting strengths,{0} 플레이어의 캐릭터 미리보기: 설명과 시작 능력치
+SLOT_CONTROL,Controls,조작
+CTRL_BOT,Bot,봇
+CTRL_YOU,You,나
+CTRL_ONLINE,Online,온라인
+SCHEME_KB_ARROWS,Arrow keys + Space,방향키 + 스페이스
+SCHEME_KB_ARROWS_SKILL,Left Shift,왼쪽 Shift
+PLAYER_COUNT,Players: {0} / {1},플레이어: {0} / {1}
+LOBBY_MATCH_LENGTH,Match length,대전 길이
+LOBBY_ROUNDS_VALUE,{0} rounds,{0} 라운드
+A11Y_MATCH_LENGTH,Choose how many rounds the match lasts,대전을 몇 라운드로 진행할지 선택합니다
+A11Y_MATCH_LENGTH_OPTION,Play a best-of-{0} match,{0}판 승부로 진행합니다
+BTN_ADD_PLAYER,Add player,플레이어 추가
+BTN_START,Start match,대전 시작
+BTN_BACK,Back to lobby,로비로 돌아가기
+BTN_READY,Ready,준비 완료
+BTN_NOT_READY,Not ready,준비 안 됨
+HUD_ROUND,Round,라운드
+HUD_ROUND_OF,Round {0} of {1},라운드 {0}/{1}
+HUD_SCORE,Score,점수
+SCORE_TEAM,Team {0}: {1},{0}팀: {1}
+HUD_TIME,Time,시간
+HUD_TIME_LEFT,Time left,남은 시간
+HUD_SUDDEN_DEATH,Sudden death,서든 데스
+HUD_TIME_UP,Time up,시간 종료
+A11Y_TIME_LEFT,Time remaining before the safe area starts shrinking,안전 지대가 줄어들기 전 남은 시간
+A11Y_SUDDEN_DEATH,"Sudden death — the outer floor is turning to hazard, forcing players together",서든 데스 — 바깥 바닥이 위험 지대로 바뀌어 플레이어들을 모읍니다
+A11Y_TIME_UP,The round time limit was reached and the round is a draw,라운드 제한 시간이 끝나 무승부가 되었습니다
+HUD_PLAYERS_LEFT,Players left,남은 인원
+HUD_CHARACTER,Character,캐릭터
+HUD_CONTROLS,Controls,조작
+A11Y_CONTROLS_HINT,Which control scheme drives each player this round,이번 라운드에서 각 플레이어를 조작하는 방식
+HUD_BALLOONS,Balloons,물풍선
+HUD_RANGE,Range,사거리
+HUD_SPEED,Speed,속도
+HUD_SKILL_READY,Skill ready,스킬 준비됨
+HUD_SKILL_COOLDOWN,"Skill in {0}s","스킬 {0}초 후"
+HUD_STATUS_PLAYING,In play,플레이 중
+HUD_STATUS_TRAPPED,Trapped — needs rescue,갇힘 — 구출 필요
+HUD_STATUS_OUT,Eliminated,탈락
+RESULT_WINNER,{0} wins the round!,{0} 님이 라운드에서 승리했습니다!
+RESULT_DRAW,Round drawn — no survivors.,무승부 — 생존자가 없습니다.
+RESULT_TEAM_WINNER,Team {0} wins the round!,{0}팀이 라운드에서 승리했습니다!
+RESULT_SERIES_WINNER,{0} wins the match!,{0} 님이 경기에서 승리했습니다!
+RESULT_SERIES_TEAM_WINNER,Team {0} wins the match!,{0}팀이 경기에서 승리했습니다!
+RESULT_SERIES_DRAW,The match is a draw.,경기가 무승부입니다.
+ROUND_LOADING,Next round starting…,다음 라운드 시작 중…
+COUNTDOWN_READY,Get ready!,준비!
+A11Y_COUNTDOWN,The round is about to start — get your hands on the controls,곧 라운드가 시작됩니다 — 컨트롤러에 손을 올려 두세요
+BTN_NEXT_ROUND,Next round,다음 라운드
+BTN_REMATCH,Rematch,다시 대결
+A11Y_ADD_PLAYER,Add a player to the match,대전에 플레이어를 추가합니다
+A11Y_REMOVE_PLAYER,Remove this player from the match,이 플레이어를 대전에서 제거합니다
+A11Y_START_MATCH,Start the match with the current players,현재 플레이어로 대전을 시작합니다
+A11Y_PLAYER_SLOT,Player slot {0},플레이어 자리 {0}
+A11Y_TEAM_SELECT,Choose team for player {0},{0} 플레이어의 팀을 선택합니다
+A11Y_CHARACTER_SELECT,Choose character for player {0},{0} 플레이어의 캐릭터를 선택합니다
+A11Y_CONTROL_SELECT,Choose controls for player {0}: a local human scheme or a bot,{0} 플레이어의 조작 방식을 선택합니다: 로컬 사람 또는 봇
+A11Y_ARENA,Game arena,게임 아레나
+A11Y_SCORE,Series score by team,팀별 시리즈 점수
+A11Y_NEXT_ROUND,Start the next round with the same players,같은 플레이어로 다음 라운드를 시작합니다
+A11Y_REMATCH,Start a rematch with the same players and a reset score,같은 플레이어로 점수를 초기화하고 다시 대결합니다
+A11Y_BACK_LOBBY,Leave the match and return to the lobby,대전을 떠나 로비로 돌아갑니다
+PAUSE_TITLE,Leave the match?,대전을 나가시겠어요?
+PAUSE_BODY,The current round and your series score will be lost.,진행 중인 라운드와 시리즈 점수가 사라집니다.
+BTN_RESUME,Resume,계속하기
+BTN_LEAVE,Leave match,대전 나가기
+A11Y_PAUSE_OVERLAY,Match paused. Confirm whether to keep playing or leave the match.,대전 일시정지. 계속할지 대전을 나갈지 선택하세요.
+A11Y_RESUME,"Close this menu and return to the match with the simulation and series score intact",이 메뉴를 닫고 시뮬레이션과 시리즈 점수를 그대로 유지한 채 대전으로 돌아갑니다
+A11Y_LEAVE,"Leave the match and return to the lobby, discarding the running series score",대전을 떠나 로비로 돌아가며 진행 중인 시리즈 점수를 버립니다
+LOADING,Loading…,불러오는 중…
+BTN_CONNECT,Connect players,플레이어 연결
+CONNECT_TITLE,Connect players,플레이어 연결
+CONNECT_SUBTITLE,Find nearby players on the same Wi-Fi. Bluetooth helps you pair when you are not yet on one network.,같은 Wi-Fi에 있는 근처 플레이어를 찾습니다. 아직 같은 네트워크가 아니라면 블루투스로 페어링할 수 있습니다.
+CONNECT_HOST,Host a game,게임 호스트
+CONNECT_SCAN,Find a game,게임 찾기
+CONNECT_SCANNING,Looking for nearby games…,근처 게임을 찾는 중…
+CONNECT_EMPTY,"No games found yet. Make sure everyone is on the same Wi-Fi, or use the pairing options below.",아직 찾은 게임이 없습니다. 모두 같은 Wi-Fi에 있는지 확인하거나 아래 페어링 옵션을 사용하세요.
+CONNECT_CONNECTING,Connecting…,연결 중…
+CONNECT_HOSTING,Hosting — waiting for players to join…,호스팅 중 — 플레이어 참가를 기다리는 중…
+CONNECT_CONNECTED,Connected,연결됨
+CONNECT_FOUND_ONE,{0} — {1} player(s),{0} — 플레이어 {1}명
+CONNECT_RETRY,Try again,다시 시도
+CONNECT_CANCEL,Cancel,취소
+CONNECT_BACK,Back,뒤로
+CONNECT_FALLBACK_TITLE,Not on the same network?,같은 네트워크가 아닌가요?
+CONNECT_FALLBACK_HOTSPOT,"Turn on a Wi-Fi hotspot and have others join it, then scan again.",Wi-Fi 핫스팟을 켜고 다른 사람들을 연결한 뒤 다시 검색하세요.
+CONNECT_FALLBACK_BLUETOOTH,"Pair nearby devices over Bluetooth to set up the connection, then scan again.",근처 기기를 블루투스로 페어링해 연결을 설정한 뒤 다시 검색하세요.
+CONNECT_FALLBACK_READY,I'm connected — scan again,연결했습니다 — 다시 검색
+NET_QUALITY_GOOD,Connection: good,연결 상태: 좋음
+NET_QUALITY_WARN,Connection: fair,연결 상태: 보통
+NET_QUALITY_OVER,Connection: slow,연결 상태: 느림
+NET_RTT,Round-trip: {0} ms,왕복 지연: {0} ms
+NET_ERR_CONNECT_FAILED,"Could not connect. Try pairing over Bluetooth or a hotspot, then scan again.",연결하지 못했습니다. 블루투스나 핫스팟으로 페어링한 뒤 다시 검색하세요.
+NET_ERR_HOST_FAILED,Could not start hosting on this device.,이 기기에서 호스팅을 시작하지 못했습니다.
+A11Y_CONNECT_HOST,Host a new game for nearby players to join,근처 플레이어가 참가할 새 게임을 호스트합니다
+A11Y_CONNECT_SCAN,Scan the local network for nearby games,로컬 네트워크에서 근처 게임을 검색합니다
+A11Y_CONNECT_GAME_ITEM,Join {0} with {1} players,{1}명이 참가한 {0}에 입장합니다
+A11Y_CONNECT_RETRY,Scan again for nearby games,근처 게임을 다시 검색합니다
+A11Y_CONNECT_FALLBACK_READY,Re-scan after pairing or enabling a hotspot,페어링하거나 핫스팟을 켠 뒤 다시 검색합니다
+A11Y_CONNECT_QUALITY,Current connection quality and round-trip latency,현재 연결 품질과 왕복 지연 시간
+CONNECT_START,Start match,대전 시작
+A11Y_CONNECT_START,Start the match now for everyone who has joined,참가한 모두와 함께 지금 대전을 시작합니다
+CONNECT_PLAYERS_JOINED,{0} player(s) connected,플레이어 {0}명 연결됨
+CONNECT_NEED_PEERS,Wait for at least one player to join before starting.,시작하려면 최소 한 명이 참가할 때까지 기다리세요.
+CONNECT_STARTING,Starting match…,대전 시작 중…
+CONNECT_WAIT_FOR_HOST,You're in! Waiting for the host to start the match…,입장했습니다! 호스트가 대전을 시작하기를 기다리는 중…
+NET_NOTICE_PEER_LEFT,A player disconnected — the round continues.,플레이어 연결이 끊겼습니다 — 라운드는 계속됩니다.
+NET_NOTICE_HOST_LEFT,The host left — finishing the round.,호스트가 나갔습니다 — 라운드를 마무리합니다.
+A11Y_NET_NOTICE,Networked match status notice,네트워크 대전 상태 알림
+CHAR_CLEANING_NAME,Sudsy,뽀득
+CHAR_CLEANING_MOTIF,Cleaning master,청소 고수
+CHAR_CLEANING_DESC,A spotless speedster who never leaves a streak.,얼룩 하나 남기지 않는 깔끔한 스피드스터.
+CHAR_CLEANING_SKILL_NAME,Slippery Dash,미끄덩 대시
+CHAR_CLEANING_SKILL_DESC,"Dash up to 2 cells forward, slipping through open space.","앞으로 최대 2칸 미끄러지듯 순간 돌진합니다."
+CHAR_MOVING_NAME,Tote,한짐
+CHAR_MOVING_MOTIF,Moving master,이사 고수
+CHAR_MOVING_DESC,A heavy-duty hauler who always packs one more balloon.,언제나 물풍선 하나를 더 챙기는 힘센 일꾼.
+CHAR_MOVING_SKILL_NAME,Cargo Push,짐 밀기
+CHAR_MOVING_SKILL_DESC,Push the balloon or soft block in front of you.,정면의 물풍선이나 소프트 블록을 밀어냅니다.
+CHAR_INTERIOR_NAME,Rolly,데굴
+CHAR_INTERIOR_MOTIF,Interior master,인테리어 고수
+CHAR_INTERIOR_DESC,A bold remodeler whose blasts reach wall to wall.,벽에서 벽까지 시원하게 터뜨리는 대담한 리모델러.
+CHAR_INTERIOR_SKILL_NAME,Roller Coating,롤러 코팅
+CHAR_INTERIOR_SKILL_DESC,"Paint up to 3 cells ahead: allies speed up, foes slow down.","앞쪽 최대 3칸을 칠해 아군은 빠르게, 적군은 느리게 만듭니다."
+CHAR_LESSON_NAME,Menty,척척
+CHAR_LESSON_MOTIF,Lessons master,레슨 고수
+CHAR_LESSON_DESC,A steady coach who's balanced at everything.,모든 면에서 균형 잡힌 든든한 코치.
+CHAR_LESSON_SKILL_NAME,Whistle Blow,호루라기
+CHAR_LESSON_SKILL_DESC,"Knock back and briefly stun nearby players in all four directions.","상하좌우 가까운 플레이어를 밀쳐내고 잠깐 기절시킵니다."
+CHAR_PET_NAME,Paws,살금
+CHAR_PET_MOTIF,Pet-care master,펫케어 고수
+CHAR_PET_DESC,A nimble companion who darts in and out of danger.,위험 속을 날쌔게 드나드는 재빠른 동료.
+CHAR_PET_SKILL_NAME,Leash Retrieve,목줄 회수
+CHAR_PET_SKILL_DESC,Throw a leash to pull a trapped ally to you and free them.,목줄을 던져 갇힌 아군을 끌어와 곧바로 구출합니다.
+SETTINGS_SOUND,Sound,소리
+SETTINGS_MUTE,Mute,음소거
+SETTINGS_VOLUME,Volume,음량
+A11Y_SOUND,Sound effect volume and mute controls,효과음 음량 및 음소거 조절
+A11Y_MUTE,Toggle to silence all sound effects,효과음을 모두 끄려면 켜세요
+A11Y_VOLUME,Adjust the sound effect volume,효과음 음량을 조절합니다
+ROOM_HEADING,Room,방
+CONNECT_ROOM_NAME,Room name,방 이름
+CONNECT_ROOM_NAME_HINT,Name your room,방 이름을 정하세요
+ROOM_PLAYERS,Players in room,방에 있는 플레이어
+ROOM_READY,Ready,준비
+ROOM_STATUS_READY,Ready,준비 완료
+ROOM_STATUS_WAITING,Not ready,준비 안 됨
+ROOM_STATUS_HOST,Host,방장
+ROOM_KICK,Kick,내보내기
+ROOM_YOU,(You),(나)
+ROOM_START_HINT,All players must be ready before you can start.,모든 플레이어가 준비되어야 시작할 수 있습니다.
+ROOM_WAIT_READY,Waiting for everyone to be ready…,모두가 준비되기를 기다리는 중…
+NET_NOTICE_KICKED,The host removed you from the room.,호스트가 당신을 방에서 내보냈습니다.
+A11Y_ROOM_NAME,The name other players see for your room,다른 플레이어에게 보이는 방 이름
+A11Y_ROOM_READY,Toggle whether you are ready to start,시작 준비 상태를 전환합니다
+A11Y_ROOM_KICK,Remove {0} from the room,{0} 님을 방에서 내보냅니다
+A11Y_ROOM_PLAYER,Player {0} room slot,플레이어 {0} 방 슬롯
+A11Y_ROOM_CHARACTER,Choose your character,캐릭터를 선택합니다
+LOBBY_MAP,Map,맵
+A11Y_MAP_SELECT,Choose the arena layout,아레나 맵을 선택합니다
+MAP_CLASSIC_NAME,Classic Grid,클래식 그리드
+MAP_CLASSIC_DESC,The familiar pillar grid packed with soft blocks.,익숙한 기둥 격자에 부술 수 있는 블록이 가득합니다.
+MAP_OPEN_NAME,Open Plaza,탁 트인 광장
+MAP_OPEN_DESC,Few walls and sparse blocks for fast open chases.,벽이 거의 없고 블록이 드물어 빠르고 개방적인 전투.
+MAP_CROSS_NAME,Crossroads,사거리
+MAP_CROSS_DESC,A central wall cross splits the arena into four quarters.,중앙의 십자 벽이 아레나를 네 구역으로 나눕니다.
+MAP_PINWHEEL_NAME,Pinwheel,바람개비
+MAP_PINWHEEL_DESC,Rotating wall bars give cover in an open field.,회전하는 벽 막대가 개방된 전장에 엄폐물을 제공합니다.
+BTN_CHECK_UPDATES,Check for updates,업데이트 확인
+A11Y_CHECK_UPDATES,Check for a newer version of the game,게임의 최신 버전을 확인합니다

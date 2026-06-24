@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sparkle Info.plist keys for the exported macOS app.
+
+  In Godot's macOS export preset, set these via:  Application > Additional Plist Content
+  (paste the <key>/<value> pairs below), or merge them into a custom Info.plist.
+
+  - SUFeedURL       : HTTPS URL where appcast.xml is hosted.
+  - SUPublicEDKey   : the EdDSA PUBLIC key printed by Sparkle's `generate_keys` (NOT the private one).
+  - SUEnableAutomaticChecks / SUScheduledCheckInterval : background-check behaviour (86400 = daily).
+
+  Also ensure the export preset increments the build number every release:
+    Application > Version (CFBundleShortVersionString) and
+    Application > Build  (CFBundleVersion) — Sparkle compares CFBundleVersion to decide "is newer".
+-->
+<plist version="1.0">
+<dict>
+	<key>SUFeedURL</key>
+	<string>https://YOUR_DOMAIN/soomgo-arcade/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>REPLACE_WITH_YOUR_SPARKLE_PUBLIC_ED_KEY</string>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
+</dict>
+</plist>

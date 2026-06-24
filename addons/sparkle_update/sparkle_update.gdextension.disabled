@@ -1,0 +1,10 @@
+# Rename this file to `sparkle_update.gdextension` AFTER you have built the native library
+# (see README.md). It is shipped with the `.disabled` suffix on purpose so Godot does not try to
+# load a not-yet-built library — which would print errors in the editor and in headless test runs.
+[configuration]
+entry_symbol = "sparkle_update_library_init"
+compatibility_minimum = "4.4"
+
+[libraries]
+macos.debug = "res://addons/sparkle_update/bin/libsparkle_update.macos.template_debug.dylib"
+macos.release = "res://addons/sparkle_update/bin/libsparkle_update.macos.template_release.dylib"
